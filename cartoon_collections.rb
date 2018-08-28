@@ -16,4 +16,5 @@ def find_the_cheese(array)
   cheeses = ["cheddar", "gouda", "camembert"]
   if array.include?(cheeses)
     return cheeses
+  end
 end 
