@@ -17,6 +17,8 @@ def find_the_cheese(array)
   array.each do |item|
     if array.include?(cheeses)
       return item
+    else
+      return nil
     end
   end
 end 
