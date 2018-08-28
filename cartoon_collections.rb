@@ -13,7 +13,7 @@ def long_planeteer_calls(calls)
 end 
 
 def find_the_cheese(cheeses)
-  if cheeses.include?(cheese)
+  cheeses.find(cheese)
     return cheese 
   end
 end 
