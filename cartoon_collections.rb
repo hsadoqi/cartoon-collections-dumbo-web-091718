@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.each do |call|
-    if call.size > 4
+    if call.length > 4
       return true 
     else 
       return false 
